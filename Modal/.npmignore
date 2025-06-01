@@ -1,0 +1,25 @@
+# Fichiers source
+/src
+/__tests__
+/tests
+/test
+/spec
+
+# Fichiers de configuration
+/.babelrc
+/.eslintrc
+/.prettierrc
+/tsconfig.json
+/rollup.config.js
+
+# Fichiers de développement
+/node_modules
+/.git
+/.github
+/.vscode
+/.idea
+
+# Fichiers système
+.DS_Store
+*.log
+*.lock 
