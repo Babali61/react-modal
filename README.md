@@ -128,6 +128,11 @@ Le composant Modal utilise des classes CSS que vous pouvez surcharger :
   max-width: 400px;
 }
 
+.modal-md {
+  /* Styles pour la taille small */
+  max-width: 550px;
+}
+
 .modal-lg {
   /* Styles pour la taille large */
   max-width: 700px;
