@@ -93,9 +93,10 @@ const Modal = ({
   // Fonction pour déterminer la classe de taille
   const getSizeClass = () => {
     switch (size) {
+      case 'md': return 'modal-md';
       case 'sm': return 'modal-sm';
       case 'lg': return 'modal-lg';
-      default: return '';
+      default: return 'modal-md';
     }
   };
 
